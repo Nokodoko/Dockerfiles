@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM arm64v8/ubuntu:latest
 RUN apt-get update && \
     apt-get install -y build-essential wget libssl-dev libffi-dev zlib1g-dev curl libsqlite3-dev libbz2-dev && \
     wget https://www.python.org/ftp/python/3.10.12/Python-3.10.12.tgz && \
